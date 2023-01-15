@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #1f2937;
+    padding: 2.4vh 16vw;
+}
+
+#header-logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#link1{
+    margin-left: 28vw
+}
+
+.nav-links{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 2vh 1vw;
+    text-decoration: none;
+}
+
+#awesome-text{
+    font-size: 48px;
+    color: #f9faf8;
+    width: 24vw;
+}
+
+#head-container{
+    margin-top: 12vh;
+    padding: 2.4vh 0vw;
+    display: flex;
+}
+
+#awesome-p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 6vh;
+    margin-right: 4vw;
+    width: 32vw;
+}
+
+#head-img{
+    width: 28vw;
+    height: 32vh;
+}
+
+#signup-btn{
+    background-color: #3882f6;
+    color: #fff;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 12%;
+    margin-top: 4vh;
+    font-size: 16px;
+    padding: 1vw 3.2vh;
+    cursor: pointer;
+}
+
+#signup-btn:hover{
+    background-color: #1047a0;
+}
+
+#info-heading{
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-content{
+    display: flex;
+    padding: 8vh 18vw;
+}
+
+.info-img{
+    width: 12vw;
+    height: 18vh;
+}
+
+.info-text{
+    color: rgb(142, 141, 141);
+}
+
+.img-wrapper{
+    border: 6px solid #3882f6;
+    border-radius: 6px;
+}
+
+#info-content div{
+    margin: 2vh 1vw;
+}
+
+#quote-box{
+    background-color: #e5e7eb;
+    padding: 8vh 16vw;
+}
+
+#quote-box span i{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#quote-name{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+    margin-left: 40vw;
+}
+
+#action-box{
+    background-color: #3882f6;
+    color: #fff;
+    display: flex;
+    width: 64vw;
+    border: 0px;
+    border-radius: 8px;
+    margin: 8vh auto;
+    padding: 4vh 6vw;
+}
+
+#action-head{
+    font-size: 24px;
+}
+
+#action-btn{
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin-left: 12vw;
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 18px;
+    padding: 2vh 2vw;
+}
+
+#action-btn:hover{
+    background-color: #1047a0;
+}
+
+#action-text{
+    font-size: 18px;
+}
+
+#footer-box{
+    background-color: #1f2937;
+    color: #fff;
+}
+
+#footer-box h3{
+    text-align: center;
+    padding: 4vh 0;
+}
