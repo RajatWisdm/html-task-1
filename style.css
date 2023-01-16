@@ -35,6 +35,7 @@
     margin-top: 12vh;
     padding: 2.4vh 0vw;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #awesome-p{
@@ -154,4 +155,40 @@
 #footer-box h3{
     text-align: center;
     padding: 4vh 0;
+}
+@media(max-width: 900px){
+    #head-container{
+        flex-direction: column;
+    }
+
+    #awesome-p{
+        width: 80vw;
+    }
+
+    #awesome-text{
+        width: 80vw;
+    }
+
+    #head-img{
+        height: 36vh;
+        width: 72vw;
+        margin-top: 6vw;
+    }
+
+    #info-content{
+        flex-wrap: wrap;
+    }
+
+    .info-img{
+        width: auto;
+    }
+
+    #action-box{
+        flex-direction: column;
+    }
+
+    #action-btn{
+        padding: 1vh 4vw;
+        margin: 2.4vh auto;
+    }
 }
